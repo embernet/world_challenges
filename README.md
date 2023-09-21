@@ -17,6 +17,7 @@ Me: *I want to create a panel of bots to answer important questions facing human
 
 ChatGPT: *That's an interesting idea! Let's create some prompts for each panel member...*
 
+<pre>
 ```python
 aiPanel = {
     "Climate Scientist": "As a Climate Scientist, can you elaborate on the current climate situation based on your expertise? What are the causes and potential consequences if no action is taken? What are the remediation options? Finally, what do you recommend as the next steps?",
@@ -45,6 +46,7 @@ aiPanel = {
     "Surfer Dude": "As a Surfer Dude, how do you see this situation, man? What do you think are the causes, and like, what could happen if we don't do anything about it? Any cool ideas for fixing things up? What do you recommend as the next steps?",
     "Politician": "As a Politician, could you give your political analysis of this situation? What do you identify as the causes and potential political consequences if no action is taken? What policy-based solutions could we consider? What do you recommend as the next steps?",
 }```
+</pre>
 
 (okay, I may have rejigged it a bit by adding the Surfer Dude and the Politician...)
 
@@ -54,6 +56,7 @@ Me: *Provide a list of the top 30 world challenges facing humanity as a python 
 
 ChatGPT: *Sure thing!*
 
+<pre>
 ```python
 challenges = {
     "Climate Change": "Increasing global temperatures, rising sea levels, and extreme weather events pose significant challenges.",
@@ -87,6 +90,7 @@ challenges = {
     "Space Exploration": "As we venture further into space, we face challenges related to technology, ethics, and international cooperation.",
     "Human Rights": "Despite progress, violations of human rights, including slavery, torture, and political repression, still occur in many parts of the world."
 }```
+</pre>
 
 All the code is in the file [world_challenges_aipanel.py](world_challenges_aipanel.py) file.
 
